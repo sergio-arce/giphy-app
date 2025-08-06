@@ -17,7 +17,7 @@ export default function GiphyPage() {
         onClear={() => doSearch('')}
         onTagSelect={tag => doSearch(tag)}
       />
-      <main className="max-w-6xl mx-auto px-4 py-8">
+      <main className="max-w-6xl mx-auto px-4 py-4">
         {gifs.length === 0 && !loading ? (
           <p className="text-center text-gray-500 py-12">
             No GIFs found. Try a different search term.
