@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+
+@theme {
+  /* colors */
+  --color-green: #3e9392;
+  --color-gray-dark: #101828; 
+
+  /* settings */
+  --color-primary: var(--color-green);
+  --color-secondary: var(--color-gray-dark); 
+}
