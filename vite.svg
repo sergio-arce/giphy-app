@@ -1,0 +1,19 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo circular -->
+  <circle cx="100" cy="100" r="90" fill="#101828"/>
+  
+  <!-- Triángulo animado -->
+  <path d="M80 60L140 100L80 140V60Z" fill="#3e9392">
+    <animateTransform 
+      attributeName="transform" 
+      type="rotate" 
+      from="0 100 100" 
+      to="360 100 100" 
+      dur="3s" 
+      repeatCount="indefinite"
+    />
+  </path>
+  
+  <!-- Texto -->
+  <text x="100" y="180" font-family="Arial" font-size="14" text-anchor="middle" fill="white">GIPHY App</text>
+</svg>
