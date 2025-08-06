@@ -9,7 +9,7 @@ interface HeaderProps {
   onTagSelect: (tag: string) => void;
 }
 
-const tags = ['Fail', 'Dog what', 'Excited', 'Salsa', 'Funny cat', 'Reaction', 'Excited Dance']
+const tags = ['Fail', 'Dog what', 'Excited', 'Salsa', 'Funny cat', 'Reaction', 'Excited Dance', 'Laughing' ]
 
 export function Header({ value, onTermChange, onSearch, onClear, onTagSelect }: HeaderProps) {
 

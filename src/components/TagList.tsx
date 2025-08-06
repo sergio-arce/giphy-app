@@ -6,8 +6,8 @@ interface Props {
 
 export function TagList({ tags, onSelect }: Props) {
   return (
-    <div className="mt-4 overflow-x-auto">
-      <div className="flex space-x-2 px-4">
+    <div className="mt-4 overflow-x-auto pb-2.5">
+      <div className="flex gap-4">
         {tags.map(tag => (
           <button
             key={tag}

@@ -12,7 +12,9 @@ export function SearchBar({ value, onTermChange, onSearch, onClear }: SearchBarP
 
   const handleSearch = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault(); 
-    onSearch(); 
+    if (value.trim() !== '') {
+      onSearch(); 
+    }
   }
   return (
     <form
