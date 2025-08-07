@@ -52,3 +52,5 @@ pnpm install
 ```bash
 pnpm run dev
 ```
+
+[Live demo](https://sergio-arce.github.io/giphy-app/)
