@@ -2,6 +2,10 @@
 
 A modern, high-performance GIF gallery application built with React, Vite, TypeScript, and Tailwind CSS. This application showcases best practices in frontend development, including infinite scrolling, responsive masonry layouts, and optimized performance.
 
+<div style="text-align:center">
+  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3gyNTJwM3h5ZGNseml0enB3c2FxdDg4amFkZDk4M3JqYXprM2d3aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Z5xk7fGO5FjjTElnpT/giphy.gif" alt="What dog" style="width:300px"/>
+</div>
+
 ## 🚀 Features
 
 - **Blazing Fast Performance**: Built with Vite for instant hot module replacement and optimized builds
