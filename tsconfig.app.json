@@ -27,7 +27,8 @@
         "@/*": [
           "./src/*"
         ]
-      }
-    },
-  "include": ["src"]
+      },
+    "types": ["vitest/globals"],
+  },
+  "include": ["src", "src/vitest.setup.ts"]
 }

@@ -1,5 +1,7 @@
-import { defineConfig } from 'vite'
+/// <reference types="vitest" />
+/// <reference types="vite/client" />
 
+import { defineConfig } from 'vite'
 import path from "path"
 import react from '@vitejs/plugin-react-swc'
 import tailwindcss from '@tailwindcss/vite'
@@ -13,5 +15,13 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: '/giphy-app'
+  base: '/giphy-app',
+  test: {
+    globals: true,
+    environment: 'jsdom',
+    setupFiles: ['./src/vitest.setup.ts'],
+    css: true,
+    testTimeout: 5000,
+    reporters: ['verbose']
+  }
 })
